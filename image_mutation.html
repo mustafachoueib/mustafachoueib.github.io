@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Mustafa Choueib</title>
+    <meta name="description" content="A Portfolio showcasing some of my abilities">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/vendor.css">
+
+    <!-- script
+    ================================================== -->
+    <script defer src="js/vendor/fontawesome/all.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body id="top" class="ss-preload">
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+        <div class="row s-header__nav-wrap">
+            <nav class="s-header__nav">
+                <ul>
+                    <li class="current"><a class="smoothscroll" href="index.html">Home</a></li>
+                    <li class="current"><a class="smoothscroll" href="index.html#about">About</a></li>
+                    <li class="current"><a class="smoothscroll" href="index.html#resume">Experience and Skills</a></li>
+                    <li class="current"><a class="smoothscroll" href="index.html#portfolio">Projects</a></li>
+                    <li class="current"><a class="smoothscroll" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div> <!-- end row -->
+
+        <a class="s-header__menu-toggle" href="#0" title="Menu">
+            <span class="s-header__menu-icon"></span>
+        </a>
+    </header> <!-- end s-header -->
+
+
+
+    <!-- portfolio
+    ================================================== -->
+    <section id="portfolio" class="s-portfolio target-section">
+
+        <div class="row s-portfolio__header">
+            <div class="column large-12">
+                <h2>Image Mutation</h2>
+            </div>
+        </div>
+        <div class="row">
+        <p>
+        This project was a final assignment for my Principles of Programming class. This was done in C and helped further my understanding for pointers and memory allocation. Considering C is not object oriented,
+        this assignment involved a large use of structures, hence, memory allocation and de-allocation was necessary. This assignment required the use of genetic algorithm in order to display
+        an image that resembled the target image.
+        </p>
+        <p>
+        This algorithm worked by creating a population of images in which each entity of that population has randomized pixels. Upon completion, the algorithm determines each individual
+        entity's fitness and sorts the entire population from lowest to highest.
+        </p>
+        <p>
+        The algorithm then mutates the bottom 75% of the entities by furhter randomizing a number of pixels, then follows up by resorting the population.
+        After a certain number of mutations, the algorithm will ouput the image with the lowest fitness to a new .ppm file.
+        </p>
+        <p>
+        The picture on the left is the target image, and the picture on the right is the picture produced by the genetic algorithm:
+        </p>
+        </div>
+        <p align="center">
+          <img src="images/portfolio/image_mutation/goal.jpg" alt="Target image" align="middle" />
+          <img src="images/portfolio/image_mutation/mutation.jpg" alt="mutated image" align="middle" />
+        </p>
+        <p align="center">
+          <img src="images/portfolio/image_mutation/macgoal.jpg" alt="Second Target" align="middle" />
+          <img src="images/portfolio/image_mutation/mactarget.jpg" alt="Second Mutated image" align="middle" />
+        </p>
+        <div class="row">
+        <p>
+          Here is what the process would look like from start to finish:
+        </p>
+        </div>
+        <p align="center">
+          <br />
+          <img src="images/portfolio/image_mutation/generating.gif" alt="Gif of process" align="middle" />
+        </p>
+        <div class="row">
+        <p>
+          All source code is available upon request.
+        </p>
+        </div>
+    </section> <!-- end s-portfolio -->
+
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+
+        <div class="row s-contact__header">
+            <div class="column large-12">
+                <h3 class="section-header-allcaps">Contact Me</h3>
+            </div>
+        </div>
+
+        <div class="row s-contact__content">
+
+            <div class="column large-7 medium-12">
+
+                <h4 class="huge-text">
+                If you have any questions or inquiries feel free to contact me at:
+                </h4>
+
+            </div>
+
+            <div class="column large-4 medium-12">
+
+                <div class="row contact-infos">
+                    <div class="column large-12 medium-6 tab-12">
+                        <div class="contact-block">
+                            <h5 class="contact-block__header">
+                                Email
+                            </h5>
+                            <p class="contact-block__content">
+                                <a class="mailtoui" href="mailto:mustafa.choueib@hotmail.com">mustafa.choueib@hotmail.com</a>
+                            </p>
+                        </div> <!-- end contact-block -->
+                    </div>
+                    <div class="column large-12 medium-6 tab-12">
+                        <div class="contact-block">
+                            <h5 class="contact-block__header">
+                                Phone
+                            </h5>
+                            <p class="contact-block__content">
+                                <a href="tel:+19058071500">+1905 807 1500</a>
+                            </p>
+                        </div> <!-- end contact-block -->
+                    </div>
+
+                    <div class="column large-12">
+                        <a href="mailto:mustafa.choueib@hotmail.com" class="mailtoui btn btn--primary h-full-width">Email Me</a>
+                    </div>
+                </div> <!-- end contact-infos -->
+
+            </div>
+        </div> <!-- s-contact__content -->
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer class="s-footer">
+        <div class="row">
+            <div class="column large-4 medium-6 w-1000-stack s-footer__social-block">
+                <ul class="s-footer__social">
+                    <li><a href="https://github.com/choueibm"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/mustafa-choueib/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="column large-7 medium-6 w-1000-stack ss-copyright">
+                <span>© Copyright Mustafa Choueib</span>
+            </div>
+        </div>
+
+        <div class="ss-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"/></svg>
+             </a>
+        </div> <!-- end ss-go-top -->
+    </footer>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
